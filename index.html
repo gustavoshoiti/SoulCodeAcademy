@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Este é um comentário que não aparece no programa-->
+    <head>
+        <title>Aula HTML 02</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="magic, mtg, cardgame, cartas"> <!--tgs de busca-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escala padrao em navegadores-->
+        <meta name "author" content="Gustavo"> <!--nome do autor-->
+        <meta name="refresh" content="5"> <!--este codigo recarrega a cada x segundos-->
+        <meta name="description" content="Este é um site teste">
+        
+        <Style>
+            #azorius {
+                color: cornflowerblue;
+            }
+            .borda {
+                border: 1px solid orange;
+            }
+            #golgari {
+                color: green;
+            }
+            #dimir {
+                color: blue;
+            }
+            .meu-h2 {
+                color: crimson;  
+            }
+        </Style>
+        <!--o id e declaração "#" ,posso colocar em um só atributo por vez, uso esprcífico-->
+        <!--o class e a declaração ".",  eu posso colocar em varias classes-->
+
+    </head>
+    <body>
+        <h1>Ravnica, Centro do Mundo</h1>
+
+        <h2 class="meu-h2 borda">Combinações de cores</h2>
+
+        <h3 style="border: 1px solid red;">Azorius: a Guilda da lei e opressão.</h3><!--cologa uma borda em volta-->
+            <p id="azorius">Esta é uma guilda que... comanda a parte jurídica e social</p>
+        <h3 class="borda">Golgari: a Guilda da morte e reprodução.</h3>
+            <p id="golgari">Esta é uma guilda que...</p>
+        <h3 class="borda">Dimir: a Guilda dos ladróes.</h3>
+            <p id="dimir">Esta é uma guilda que...</p>
+
+        <h2 class="meu-h2">Atributos</h2>
+        <p>
+            Lorem <mark>ahsuhduasd fedfjajdsa dalkçsak</mark>ipsum dolor sit amet consectetur adipisicing elit. Amet, aperiam nisi? Excepturi explicabo 
+            totam odit, repudiandae doloribus, nostrum <cite>eita ferro que loucura</cite> culpa tempora nihil quos iusto, itaque officiis 
+            assumenda! Eligendi earum magnam harum.
+        </p>
+        <!--"cite" serve para citação de uma frase ou pessoa-->
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quisquam exercitationem omnis 
+            accusantium, <b>corrupti perferendis in eveniet fuga</b> eius beatae nobis praesentium dolore doloribus 
+            iure molestias odio <i>culpa quam accusamus!</i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, aperiam nisi? Excepturi explicabo 
+            totam odit, <strong>repudiandae doloribus</strong>, nostrum culpa tempora nihil quos iusto, itaque officiis 
+            assumenda! <em>Eligendi earum</em> magnam harum.
+        </p>
+        <!--"i" deixa em italico e "em" deixa em italico com peso semantico-->
+        <!--"strong" deixa em negrito com peso semantico para o buscador, o "b" ja deixa destacado só-->
+        <p>
+            5<sup>2</sup>=25
+        </p>
+        <p>
+            log<sup>a</sup><sub>b</sub>=c
+        </p>
+        <!--sup serve pra colocar acima de uma palavra e sub abaixo-->
+        <p>
+            Lorem ipsum dolor <small>sit amet consectetur, <ins>adipisicing elit.</ins> Accusamus asperiores</small> similique, 
+            <del>facere rerum eligendi esse beatae quam ipsa </del>ullam possimus aliquid corporis velit laboriosam, dignissimos dolores error tenetur libero consectetur.
+        </p>
+        <!--ins sublinha e marca, dell deixa riscado no site-->
+    </body>
+</html>
